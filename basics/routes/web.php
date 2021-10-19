@@ -17,3 +17,5 @@ Route::get('/', function () {
 
 
 Route::view('form','user');
+
+Route::post('submit','User@save');
